@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Sedang Pemeliharaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #ff5f5f;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .message {
+            margin-top: 20px;
+        }
+
+        .contact {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .loader {
+            margin-top: 20px;
+        }
+
+        .loader div {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background-color: #007bff;
+            animation: bounce 0.6s infinite alternate;
+        }
+
+        .loader div:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .loader div:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Website Sedang Pemeliharaan</h1>
+        <p>Maaf, website kami sedang dalam perawatan. Kami sedang melakukan beberapa pembaruan dan akan kembali segera.</p>
+        <div class="message">
+            <p>Terima kasih atas kesabarannya!</p>
+        </div>
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="contact">
+            <p>Jika Anda membutuhkan bantuan, silakan hubungi kami di <a href="mailto:support@website.com">support@website.com</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
